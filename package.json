@@ -1,0 +1,32 @@
+{
+  "name": "typed-dns",
+  "version": "1.0.0",
+  "description": "TypeScript typings for the core dns library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsc test/test.ts --module commonjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weswigham/typed-dns.git"
+  },
+  "keywords": [
+    "typescript",
+    "typed",
+    "dns",
+    "module",
+    "definitely"
+  ],
+  "author": "weswigham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weswigham/typed-dns/issues"
+  },
+  "homepage": "https://github.com/weswigham/typed-dns#readme",
+  "devDependencies": {
+    "typescript": "^1.6.0-beta"
+  }
+}
